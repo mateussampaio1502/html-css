@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 5px;
+        }
+        header {
+            background-color: white;
+            padding:10px;
+            margin: 10px auto 10px auto;
+            box-shadow: 2px 2px 4px grey;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: darkslategray;
+            box-shadow: 2px 2px 4px grey;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding-right: 4px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            text-align: justify;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px;
+            padding: 2px;
+        }
+        article > aside {
+            color: darkslategray;
+            font-family: fantasy;
+        }
+        footer {
+            background-color: darkslategray;
+            color: white;
+            padding: 7.5px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        footer > p {
+            margin: 0;
+        }
+        h1, h2 {
+            text-shadow: 1.5px 1.5px 2.5px grey;
+            color: darkslategrey;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta provident amet vel sapiente, cupiditate nulla voluptatibus deleniti perferendis odio commodi velit, quam, nesciunt recusandae eligendi assumenda. Beatae quae iste odit?</p>
+                <aside>
+                    <p>Escrito por fulano de tal</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <div>
+        <footer>
+            <p>Desenvolvido por Mateus</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+       @font-face {
+    font-family: 'London';
+    src: url('fonts/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+        @font-face {
+    font-family: 'VIKING';
+    src: url('fonts/VIKING.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - trutype (ttf)
+            - embedded-opentype
+            -truetype-aat (Apple advanced type)
+            */
+        body {
+            font-family: 'VIKING';
+            font-weight: normal;
+            font-size: 1.5em;
+        }
+        h1 {
+            font-family: 'London', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+        p {
+            font-family: 'VIKING';
+            font-weight: normal;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem placeat consequuntur ab incidunt, unde aliquid dolore corrupti architecto quod tenetur possimus sint deserunt, tempore quam autem assumenda voluptatum? Explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure id beatae soluta natus in! Eius, esse odit, animi cumque, porro natus in quidem reiciendis voluptas quia sed similique incidunt!</p>
+</body>
+</html>
