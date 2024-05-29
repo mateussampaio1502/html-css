@@ -30,7 +30,6 @@ a {
 a:hover {
     background: rgba(128, 128, 128, 0.2);
     border-radius: 10px;
-    text-decoration: underline;
     transition-duration: 0.25s ;
 }
 
@@ -50,6 +49,9 @@ header > h1 {
 
 header > p {
     padding-bottom: 25px;
+    font-family: var(--fonte2);
+    font-weight: normal;
+    font-size: 1.5em;
 }
 
 section {
