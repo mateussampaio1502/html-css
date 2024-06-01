@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site de exemplo</h1>
+        <span id="menu" class="material-icons" onclick="clickmenu()">menu</span>
+        <menu id="itens">
+                <a href="#">Opção 1</a>
+                <a href="#">Opção 2</a>
+                <a href="#">Opção 3</a>
+                <a href="#">Opção 4</a>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Título</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse dolorum animi similique ea sapiente vel error sint, nulla adipisci non quisquam amet hic ad nam. Eligendi corporis eum tempora sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. A itaque id obcaecati dicta, natus enim libero voluptatibus voluptates iusto similique esse tempora fugit architecto minima porro voluptatum distinctio, quos possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident quos vel qui quam earum aperiam vero quas eum vitae, debitis obcaecati sunt rerum reprehenderit, nobis quia amet et excepturi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum tenetur facere nobis doloribus culpa beatae totam id cupiditate necessitatibus. Consequatur, nulla doloremque autem qui mollitia officiis suscipit unde eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea, quo dolorum natus reprehenderit possimus, et cum neque iste hic consequatur fuga nesciunt itaque iusto adipisci, molestiae voluptas nemo tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minus autem reprehenderit dicta possimus inventore eius unde corporis eum. Eos dignissimos consequuntur impedit optio alias maxime deleniti quis molestias rerum.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos reiciendis vel vero aliquid debitis officiis voluptate natus hic illo alias expedita optio tenetur, corporis porro ab sunt sequi numquam! Omnis.</p>
+        </article>
+    </main>
+    <script>
+        function clickmenu () {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
