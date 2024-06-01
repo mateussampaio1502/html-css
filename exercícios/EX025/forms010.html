@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+    <p>
+        <label for="inum">Ano de nascimento</label>
+        <input type="number" name="num" id="inum" min="1900" max="2024" oninput="iidade.innerHTML=-Number(inum.value)+Number(2024)">
+    </p>
+    <p>
+        sua idade é <output name="iidade"></output>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir">
+    </p>
+</body>
+</html>
